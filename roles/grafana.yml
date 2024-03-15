@@ -1,0 +1,6 @@
+---
+- name: installing_grafana
+  hosts: java_server
+  roles:
+    - grafana_roles
+

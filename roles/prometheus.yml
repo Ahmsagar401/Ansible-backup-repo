@@ -1,0 +1,5 @@
+---
+- name: installing_prometheus
+  hosts: java_server
+  roles: 
+    - prometheus_roles

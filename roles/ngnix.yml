@@ -1,0 +1,9 @@
+- name: Install and configure NGINX
+  hosts: all
+  become: yes
+  collections:
+    - community.general
+  tasks:
+    - name: Include geerlingguy.nginx role
+      import_role:
+        name: geerlingguy.nginx

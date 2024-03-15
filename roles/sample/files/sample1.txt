@@ -1,0 +1,2 @@
+welcome {{ name }} to the devops class
+emp id is {{ id }}
